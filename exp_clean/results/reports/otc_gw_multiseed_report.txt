@@ -1,0 +1,65 @@
+# OTC-GW Multi-seed Wrapper Report
+models: ['VanillaMF', 'LightGCN']
+target_cities: ['Chicago', 'NYC', 'Singapore', 'Tokyo']
+source_cities: ['Chicago', 'NYC', 'Singapore', 'Tokyo']
+seeds: [2025, 2026]
+epochs: 100
+dim: 64
+gammas: ['0.5', '1.0', '1.5', '2.0', '2.5', '3.0', '3.5', '4.0', '4.5', '5.0']
+gw_method: entropic_gw
+gw_epsilon: 0.01
+gw_max_iter: 80
+score_norm: none
+
+[RUN] seed2025_VanillaMF_Chicago
+      log=D:\山东大学\深度学习\OTC_Project\exp_clean\logs\otc\gw_multiseed\otc_gw_seed2025_VanillaMF_Chicago.log
+[OK] seed2025_VanillaMF_Chicago, csv=D:\山东大学\深度学习\OTC_Project\exp_clean\results\raw\otc_gw_seed2025_VanillaMF_Chicago.csv, report=D:\山东大学\深度学习\OTC_Project\exp_clean\results\reports\otc_gw_seed2025_VanillaMF_Chicago_report.txt
+[RUN] seed2025_VanillaMF_NYC
+      log=D:\山东大学\深度学习\OTC_Project\exp_clean\logs\otc\gw_multiseed\otc_gw_seed2025_VanillaMF_NYC.log
+[OK] seed2025_VanillaMF_NYC, csv=D:\山东大学\深度学习\OTC_Project\exp_clean\results\raw\otc_gw_seed2025_VanillaMF_NYC.csv, report=D:\山东大学\深度学习\OTC_Project\exp_clean\results\reports\otc_gw_seed2025_VanillaMF_NYC_report.txt
+[RUN] seed2025_VanillaMF_Singapore
+      log=D:\山东大学\深度学习\OTC_Project\exp_clean\logs\otc\gw_multiseed\otc_gw_seed2025_VanillaMF_Singapore.log
+[OK] seed2025_VanillaMF_Singapore, csv=D:\山东大学\深度学习\OTC_Project\exp_clean\results\raw\otc_gw_seed2025_VanillaMF_Singapore.csv, report=D:\山东大学\深度学习\OTC_Project\exp_clean\results\reports\otc_gw_seed2025_VanillaMF_Singapore_report.txt
+[RUN] seed2025_VanillaMF_Tokyo
+      log=D:\山东大学\深度学习\OTC_Project\exp_clean\logs\otc\gw_multiseed\otc_gw_seed2025_VanillaMF_Tokyo.log
+[OK] seed2025_VanillaMF_Tokyo, csv=D:\山东大学\深度学习\OTC_Project\exp_clean\results\raw\otc_gw_seed2025_VanillaMF_Tokyo.csv, report=D:\山东大学\深度学习\OTC_Project\exp_clean\results\reports\otc_gw_seed2025_VanillaMF_Tokyo_report.txt
+[RUN] seed2025_LightGCN_Chicago
+      log=D:\山东大学\深度学习\OTC_Project\exp_clean\logs\otc\gw_multiseed\otc_gw_seed2025_LightGCN_Chicago.log
+[OK] seed2025_LightGCN_Chicago, csv=D:\山东大学\深度学习\OTC_Project\exp_clean\results\raw\otc_gw_seed2025_LightGCN_Chicago.csv, report=D:\山东大学\深度学习\OTC_Project\exp_clean\results\reports\otc_gw_seed2025_LightGCN_Chicago_report.txt
+[RUN] seed2025_LightGCN_NYC
+      log=D:\山东大学\深度学习\OTC_Project\exp_clean\logs\otc\gw_multiseed\otc_gw_seed2025_LightGCN_NYC.log
+[OK] seed2025_LightGCN_NYC, csv=D:\山东大学\深度学习\OTC_Project\exp_clean\results\raw\otc_gw_seed2025_LightGCN_NYC.csv, report=D:\山东大学\深度学习\OTC_Project\exp_clean\results\reports\otc_gw_seed2025_LightGCN_NYC_report.txt
+[RUN] seed2025_LightGCN_Singapore
+      log=D:\山东大学\深度学习\OTC_Project\exp_clean\logs\otc\gw_multiseed\otc_gw_seed2025_LightGCN_Singapore.log
+[OK] seed2025_LightGCN_Singapore, csv=D:\山东大学\深度学习\OTC_Project\exp_clean\results\raw\otc_gw_seed2025_LightGCN_Singapore.csv, report=D:\山东大学\深度学习\OTC_Project\exp_clean\results\reports\otc_gw_seed2025_LightGCN_Singapore_report.txt
+[RUN] seed2025_LightGCN_Tokyo
+      log=D:\山东大学\深度学习\OTC_Project\exp_clean\logs\otc\gw_multiseed\otc_gw_seed2025_LightGCN_Tokyo.log
+[OK] seed2025_LightGCN_Tokyo, csv=D:\山东大学\深度学习\OTC_Project\exp_clean\results\raw\otc_gw_seed2025_LightGCN_Tokyo.csv, report=D:\山东大学\深度学习\OTC_Project\exp_clean\results\reports\otc_gw_seed2025_LightGCN_Tokyo_report.txt
+[RUN] seed2026_VanillaMF_Chicago
+      log=D:\山东大学\深度学习\OTC_Project\exp_clean\logs\otc\gw_multiseed\otc_gw_seed2026_VanillaMF_Chicago.log
+[OK] seed2026_VanillaMF_Chicago, csv=D:\山东大学\深度学习\OTC_Project\exp_clean\results\raw\otc_gw_seed2026_VanillaMF_Chicago.csv, report=D:\山东大学\深度学习\OTC_Project\exp_clean\results\reports\otc_gw_seed2026_VanillaMF_Chicago_report.txt
+[RUN] seed2026_VanillaMF_NYC
+      log=D:\山东大学\深度学习\OTC_Project\exp_clean\logs\otc\gw_multiseed\otc_gw_seed2026_VanillaMF_NYC.log
+[OK] seed2026_VanillaMF_NYC, csv=D:\山东大学\深度学习\OTC_Project\exp_clean\results\raw\otc_gw_seed2026_VanillaMF_NYC.csv, report=D:\山东大学\深度学习\OTC_Project\exp_clean\results\reports\otc_gw_seed2026_VanillaMF_NYC_report.txt
+[RUN] seed2026_VanillaMF_Singapore
+      log=D:\山东大学\深度学习\OTC_Project\exp_clean\logs\otc\gw_multiseed\otc_gw_seed2026_VanillaMF_Singapore.log
+[OK] seed2026_VanillaMF_Singapore, csv=D:\山东大学\深度学习\OTC_Project\exp_clean\results\raw\otc_gw_seed2026_VanillaMF_Singapore.csv, report=D:\山东大学\深度学习\OTC_Project\exp_clean\results\reports\otc_gw_seed2026_VanillaMF_Singapore_report.txt
+[RUN] seed2026_VanillaMF_Tokyo
+      log=D:\山东大学\深度学习\OTC_Project\exp_clean\logs\otc\gw_multiseed\otc_gw_seed2026_VanillaMF_Tokyo.log
+[OK] seed2026_VanillaMF_Tokyo, csv=D:\山东大学\深度学习\OTC_Project\exp_clean\results\raw\otc_gw_seed2026_VanillaMF_Tokyo.csv, report=D:\山东大学\深度学习\OTC_Project\exp_clean\results\reports\otc_gw_seed2026_VanillaMF_Tokyo_report.txt
+[RUN] seed2026_LightGCN_Chicago
+      log=D:\山东大学\深度学习\OTC_Project\exp_clean\logs\otc\gw_multiseed\otc_gw_seed2026_LightGCN_Chicago.log
+[OK] seed2026_LightGCN_Chicago, csv=D:\山东大学\深度学习\OTC_Project\exp_clean\results\raw\otc_gw_seed2026_LightGCN_Chicago.csv, report=D:\山东大学\深度学习\OTC_Project\exp_clean\results\reports\otc_gw_seed2026_LightGCN_Chicago_report.txt
+[RUN] seed2026_LightGCN_NYC
+      log=D:\山东大学\深度学习\OTC_Project\exp_clean\logs\otc\gw_multiseed\otc_gw_seed2026_LightGCN_NYC.log
+[OK] seed2026_LightGCN_NYC, csv=D:\山东大学\深度学习\OTC_Project\exp_clean\results\raw\otc_gw_seed2026_LightGCN_NYC.csv, report=D:\山东大学\深度学习\OTC_Project\exp_clean\results\reports\otc_gw_seed2026_LightGCN_NYC_report.txt
+[RUN] seed2026_LightGCN_Singapore
+      log=D:\山东大学\深度学习\OTC_Project\exp_clean\logs\otc\gw_multiseed\otc_gw_seed2026_LightGCN_Singapore.log
+[OK] seed2026_LightGCN_Singapore, csv=D:\山东大学\深度学习\OTC_Project\exp_clean\results\raw\otc_gw_seed2026_LightGCN_Singapore.csv, report=D:\山东大学\深度学习\OTC_Project\exp_clean\results\reports\otc_gw_seed2026_LightGCN_Singapore_report.txt
+[RUN] seed2026_LightGCN_Tokyo
+      log=D:\山东大学\深度学习\OTC_Project\exp_clean\logs\otc\gw_multiseed\otc_gw_seed2026_LightGCN_Tokyo.log
+[OK] seed2026_LightGCN_Tokyo, csv=D:\山东大学\深度学习\OTC_Project\exp_clean\results\raw\otc_gw_seed2026_LightGCN_Tokyo.csv, report=D:\山东大学\深度学习\OTC_Project\exp_clean\results\reports\otc_gw_seed2026_LightGCN_Tokyo_report.txt
+
+success_count: 16
+fail_count: 0
+merged_csv: D:\山东大学\深度学习\OTC_Project\exp_clean\results\raw\otc_gw_multiseed.csv

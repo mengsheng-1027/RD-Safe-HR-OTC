@@ -1,0 +1,17 @@
+# Backbone Artifact Export Multi-seed Wrapper Report
+models: ['VanillaMF', 'LightGCN']
+cities: ['Chicago', 'NYC', 'Singapore', 'Tokyo']
+seeds: [2025, 2026]
+epochs: 100
+dim: 64
+
+[RUN] seed=2025
+      log=D:\山东大学\深度学习\OTC_Project\exp_clean\logs\baselines\artifacts_multiseed\backbone_artifact_export_seed2025.log
+[OK] seed=2025, csv=D:\山东大学\深度学习\OTC_Project\exp_clean\results\raw\backbone_artifact_export_seed2025.csv, report=D:\山东大学\深度学习\OTC_Project\exp_clean\results\reports\backbone_artifact_export_seed2025_report.txt
+[RUN] seed=2026
+      log=D:\山东大学\深度学习\OTC_Project\exp_clean\logs\baselines\artifacts_multiseed\backbone_artifact_export_seed2026.log
+[OK] seed=2026, csv=D:\山东大学\深度学习\OTC_Project\exp_clean\results\raw\backbone_artifact_export_seed2026.csv, report=D:\山东大学\深度学习\OTC_Project\exp_clean\results\reports\backbone_artifact_export_seed2026_report.txt
+
+success_count: 2
+fail_count: 0
+merged_csv: D:\山东大学\深度学习\OTC_Project\exp_clean\results\raw\backbone_artifact_export_multiseed.csv

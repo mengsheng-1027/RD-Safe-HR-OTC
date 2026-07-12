@@ -1,0 +1,34 @@
+{
+  "script": "exp_clean/scripts/01_baselines/run_backbone_artifact_export_multiseed.py",
+  "runner": "D:\\山东大学\\深度学习\\OTC_Project\\exp_clean\\scripts\\01_baselines\\run_backbone_artifact_export_v3.py",
+  "models": [
+    "VanillaMF",
+    "LightGCN"
+  ],
+  "cities": [
+    "Chicago",
+    "NYC",
+    "Singapore",
+    "Tokyo"
+  ],
+  "seeds": [
+    2025,
+    2026
+  ],
+  "epochs": 100,
+  "eval_freq": 10,
+  "cuda": -1,
+  "batch_size": 128,
+  "dim": 64,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "keep_old_artifacts": false,
+  "success_count": 2,
+  "fail_count": 0,
+  "outputs": {
+    "merged_csv": "D:\\山东大学\\深度学习\\OTC_Project\\exp_clean\\results\\raw\\backbone_artifact_export_multiseed.csv",
+    "report": "D:\\山东大学\\深度学习\\OTC_Project\\exp_clean\\results\\reports\\backbone_artifact_export_multiseed_report.txt",
+    "log_dir": "D:\\山东大学\\深度学习\\OTC_Project\\exp_clean\\logs\\baselines\\artifacts_multiseed"
+  },
+  "note": "This wrapper only exports local scores and embeddings. It does not compute OTC-GW transfer scores."
+}

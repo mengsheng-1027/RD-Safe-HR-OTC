@@ -1,0 +1,18 @@
+{
+  "script": "exp_clean/scripts/00_data_checks/create_strict_unseen_test_splits.py",
+  "cities": [
+    "Chicago",
+    "NYC",
+    "Singapore",
+    "Tokyo"
+  ],
+  "rule": "Keep test rows whose (Brand_ID, Region_ID) pair is absent from official train.pkl.",
+  "main_evaluation": "Use official test.pkl for official-compatible reproduction results.",
+  "robustness_evaluation": "Use test_strict_unseen.pkl for strict unseen-pair robustness evaluation.",
+  "official_files_modified": false,
+  "outputs": {
+    "stats": "D:\\山东大学\\深度学习\\OTC_Project\\exp_clean\\results\\raw\\strict_unseen_test_split_stats.csv",
+    "report": "D:\\山东大学\\深度学习\\OTC_Project\\exp_clean\\results\\reports\\strict_unseen_test_split_report.txt",
+    "strict_root": "D:\\山东大学\\深度学习\\OTC_Project\\exp_clean\\data_splits\\strict_unseen"
+  }
+}

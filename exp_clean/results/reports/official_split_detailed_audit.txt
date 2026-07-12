@@ -1,0 +1,84 @@
+# Official Split Detailed Audit
+
+PROJECT_ROOT: D:\山东大学\深度学习\OTC_Project
+SPLIT_ROOT: D:\山东大学\深度学习\OTC_Project\exp_clean\data_splits\official
+
+==========================================================================================
+CITY: Chicago
+train_path: D:\山东大学\深度学习\OTC_Project\exp_clean\data_splits\official\Chicago\train.pkl
+test_path: D:\山东大学\深度学习\OTC_Project\exp_clean\data_splits\official\Chicago\test.pkl
+train shape: (4928, 5)
+test shape: (1334, 5)
+train columns: ['Brand_ID', 'Cate1_ID', 'Cate2_ID', 'Cate3_ID', 'Region_ID']
+test columns: ['Brand_ID', 'Cate1_ID', 'Cate2_ID', 'Cate3_ID', 'Region_ID']
+train unique brands: 206
+test unique brands: 206
+train unique regions: 757
+test unique regions: 542
+train unique brand-region pairs: 4116
+test unique brand-region pairs: 1262
+overlap unique pairs: 295
+overlap pair ratio in test unique pairs: 0.233756
+test rows seen pair in train: 342
+test rows strict unseen pair: 992
+strict unseen test row ratio: 0.743628
+
+==========================================================================================
+CITY: NYC
+train_path: D:\山东大学\深度学习\OTC_Project\exp_clean\data_splits\official\NYC\train.pkl
+test_path: D:\山东大学\深度学习\OTC_Project\exp_clean\data_splits\official\NYC\test.pkl
+train shape: (6962, 5)
+test shape: (1920, 5)
+train columns: ['Brand_ID', 'Cate1_ID', 'Cate2_ID', 'Cate3_ID', 'Region_ID']
+test columns: ['Brand_ID', 'Cate1_ID', 'Cate2_ID', 'Cate3_ID', 'Region_ID']
+train unique brands: 403
+test unique brands: 403
+train unique regions: 1467
+test unique regions: 857
+train unique brand-region pairs: 6090
+test unique brand-region pairs: 1838
+overlap unique pairs: 338
+overlap pair ratio in test unique pairs: 0.183896
+test rows seen pair in train: 391
+test rows strict unseen pair: 1529
+strict unseen test row ratio: 0.796354
+
+==========================================================================================
+CITY: Singapore
+train_path: D:\山东大学\深度学习\OTC_Project\exp_clean\data_splits\official\Singapore\train.pkl
+test_path: D:\山东大学\深度学习\OTC_Project\exp_clean\data_splits\official\Singapore\test.pkl
+train shape: (4866, 5)
+test shape: (1385, 5)
+train columns: ['Brand_ID', 'Cate1_ID', 'Cate2_ID', 'Cate3_ID', 'Region_ID']
+test columns: ['Brand_ID', 'Cate1_ID', 'Cate2_ID', 'Cate3_ID', 'Region_ID']
+train unique brands: 394
+test unique brands: 394
+train unique regions: 265
+test unique regions: 202
+train unique brand-region pairs: 3733
+test unique brand-region pairs: 1259
+overlap unique pairs: 364
+overlap pair ratio in test unique pairs: 0.289118
+test rows seen pair in train: 466
+test rows strict unseen pair: 919
+strict unseen test row ratio: 0.663538
+
+==========================================================================================
+CITY: Tokyo
+train_path: D:\山东大学\深度学习\OTC_Project\exp_clean\data_splits\official\Tokyo\train.pkl
+test_path: D:\山东大学\深度学习\OTC_Project\exp_clean\data_splits\official\Tokyo\test.pkl
+train shape: (13554, 5)
+test shape: (3784, 5)
+train columns: ['Brand_ID', 'Cate1_ID', 'Cate2_ID', 'Cate3_ID', 'Region_ID']
+test columns: ['Brand_ID', 'Cate1_ID', 'Cate2_ID', 'Cate3_ID', 'Region_ID']
+train unique brands: 889
+test unique brands: 889
+train unique regions: 2164
+test unique regions: 1458
+train unique brand-region pairs: 12353
+test unique brand-region pairs: 3691
+overlap unique pairs: 512
+overlap pair ratio in test unique pairs: 0.138716
+test rows seen pair in train: 558
+test rows strict unseen pair: 3226
+strict unseen test row ratio: 0.852537

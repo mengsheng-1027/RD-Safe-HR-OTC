@@ -1,0 +1,20 @@
+\begin{table*}[t]
+\centering
+\caption{Strict unseen-pair 鲁棒性分析：四城市平均 nDCG@20。}
+\label{tab:strict}
+\begin{tabular}{llcc}
+\toprule
+Backbone & Method & Official test & Strict unseen-pair \\
+\midrule
+MF & Target-only & 0.1251$\pm$0.0012 & 0.0927$\pm$0.0015 \\
+ & Original OTC-GW & 0.1170$\pm$0.0026 & 0.0876$\pm$0.0025 \\
+ & RD-Safe-OTC & 0.1251$\pm$0.0012 & 0.0929$\pm$0.0016 \\
+ & RD-Safe+HR & 0.1598$\pm$0.0010 & 0.0943$\pm$0.0010 \\
+\midrule
+LightGCN & Target-only & 0.1741$\pm$0.0026 & 0.0964$\pm$0.0020 \\
+ & Original OTC-GW & 0.1291$\pm$0.0029 & 0.0922$\pm$0.0062 \\
+ & RD-Safe-OTC & 0.1719$\pm$0.0016 & 0.0963$\pm$0.0019 \\
+ & RD-Safe+HR & 0.1738$\pm$0.0047 & 0.0952$\pm$0.0012 \\
+\bottomrule
+\end{tabular}
+\end{table*}

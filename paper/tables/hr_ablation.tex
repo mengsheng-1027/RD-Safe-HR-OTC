@@ -1,0 +1,23 @@
+\begin{table}[t]
+\centering
+\caption{HR-Rerank 内部信号消融：四城市 official test 平均结果。}
+\label{tab:hr_ablation}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lcccc}
+\toprule
+\multirow{2}{*}{Variant} & \multicolumn{2}{c}{MF} & \multicolumn{2}{c}{LightGCN}\\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+& Rec@20 & nDCG@20 & Rec@20 & nDCG@20\\
+\midrule
+RD-Safe & 0.2232$\pm$0.0010 & 0.1251$\pm$0.0012 & 0.2794$\pm$0.0034 & 0.1719$\pm$0.0016\\
+Cat only & 0.2557$\pm$0.0048 & 0.1514$\pm$0.0045 & 0.2808$\pm$0.0044 & 0.1741$\pm$0.0053\\
+RR only & 0.2358$\pm$0.0016 & 0.1327$\pm$0.0011 & 0.2794$\pm$0.0034 & 0.1719$\pm$0.0016\\
+Pop only & 0.2246$\pm$0.0033 & 0.1259$\pm$0.0026 & 0.2794$\pm$0.0034 & 0.1719$\pm$0.0016\\
+w/o Cat & 0.2346$\pm$0.0023 & 0.1337$\pm$0.0004 & 0.2794$\pm$0.0034 & 0.1719$\pm$0.0016\\
+w/o RR & 0.2583$\pm$0.0021 & 0.1538$\pm$0.0010 & 0.2808$\pm$0.0044 & 0.1738$\pm$0.0047\\
+w/o Pop & 0.2691$\pm$0.0033 & 0.1601$\pm$0.0003 & 0.2808$\pm$0.0044 & 0.1741$\pm$0.0053\\
+Full HR & 0.2666$\pm$0.0019 & 0.1598$\pm$0.0010 & 0.2808$\pm$0.0044 & 0.1738$\pm$0.0047\\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

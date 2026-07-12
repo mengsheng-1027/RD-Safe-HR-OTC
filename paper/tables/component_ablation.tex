@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering
+\caption{主模块消融实验：四城市 official test 平均结果。}
+\label{tab:component_ablation}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lcccc}
+\toprule
+\multirow{2}{*}{Method} & \multicolumn{2}{c}{MF} & \multicolumn{2}{c}{LightGCN}\\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+& Rec@20 & nDCG@20 & Rec@20 & nDCG@20\\
+\midrule
+Target-only & 0.2233$\pm$0.0008 & 0.1251$\pm$0.0012 & 0.2809$\pm$0.0057 & 0.1741$\pm$0.0026\\
+Original OTC-GW & 0.2040$\pm$0.0054 & 0.1170$\pm$0.0026 & 0.2286$\pm$0.0037 & 0.1291$\pm$0.0029\\
+RD-Safe-OTC & 0.2232$\pm$0.0010 & 0.1251$\pm$0.0012 & 0.2794$\pm$0.0034 & 0.1719$\pm$0.0016\\
+HR-OTC & 0.2610$\pm$0.0013 & 0.1560$\pm$0.0019 & 0.2721$\pm$0.0028 & 0.1674$\pm$0.0010\\
+RD-Safe+HR-OTC & 0.2666$\pm$0.0019 & 0.1598$\pm$0.0010 & 0.2808$\pm$0.0044 & 0.1738$\pm$0.0047\\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

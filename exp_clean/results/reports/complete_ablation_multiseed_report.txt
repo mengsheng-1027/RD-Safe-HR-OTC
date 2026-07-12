@@ -1,0 +1,38 @@
+# Complete Ablation Multi-seed Report
+models: ['VanillaMF', 'LightGCN']
+target_cities: ['Chicago', 'NYC', 'Singapore', 'Tokyo']
+source_cities: ['Chicago', 'NYC', 'Singapore', 'Tokyo']
+seeds: [2024, 2025, 2026]
+otc_gammas: [0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0]
+rd_betas: [0.0, 0.001, 0.002, 0.005, 0.01, 0.02, 0.05, 0.1, 0.2, 0.5, 1.0]
+hr_lambdas: [0.0, 0.02, 0.05, 0.1, 0.2, 0.5, 1.0]
+
+[OK] seed=2024 model=VanillaMF target=Chicago local_N=0.128840 otc_N=0.107021 rd_N=0.129414
+[OK] seed=2024 model=VanillaMF target=NYC local_N=0.069569 otc_N=0.068486 rd_N=0.070077
+[OK] seed=2024 model=VanillaMF target=Singapore local_N=0.213396 otc_N=0.204541 rd_N=0.213396
+[OK] seed=2024 model=VanillaMF target=Tokyo local_N=0.056089 otc_N=0.054406 rd_N=0.056089
+[OK] seed=2024 model=LightGCN target=Chicago local_N=0.399268 otc_N=0.164671 rd_N=0.399268
+[OK] seed=2024 model=LightGCN target=NYC local_N=0.473776 otc_N=0.093183 rd_N=0.473776
+[OK] seed=2024 model=LightGCN target=Singapore local_N=0.256149 otc_N=0.203886 rd_N=0.258990
+[OK] seed=2024 model=LightGCN target=Tokyo local_N=0.389940 otc_N=0.073893 rd_N=0.389940
+[OK] seed=2025 model=VanillaMF target=Chicago local_N=0.138290 otc_N=0.086110 rd_N=0.138290
+[OK] seed=2025 model=VanillaMF target=NYC local_N=0.069677 otc_N=0.065529 rd_N=0.069677
+[OK] seed=2025 model=VanillaMF target=Singapore local_N=0.209565 otc_N=0.205626 rd_N=0.209565
+[OK] seed=2025 model=VanillaMF target=Tokyo local_N=0.055992 otc_N=0.054218 rd_N=0.055992
+[OK] seed=2025 model=LightGCN target=Chicago local_N=0.371780 otc_N=0.144218 rd_N=0.371780
+[OK] seed=2025 model=LightGCN target=NYC local_N=0.443660 otc_N=0.082201 rd_N=0.443660
+[OK] seed=2025 model=LightGCN target=Singapore local_N=0.242466 otc_N=0.202272 rd_N=0.242466
+[OK] seed=2025 model=LightGCN target=Tokyo local_N=0.444342 otc_N=0.073216 rd_N=0.444342
+[OK] seed=2026 model=VanillaMF target=Chicago local_N=0.142653 otc_N=0.099525 rd_N=0.142653
+[OK] seed=2026 model=VanillaMF target=NYC local_N=0.067010 otc_N=0.061862 rd_N=0.067010
+[OK] seed=2026 model=VanillaMF target=Singapore local_N=0.207630 otc_N=0.204328 rd_N=0.207630
+[OK] seed=2026 model=VanillaMF target=Tokyo local_N=0.056681 otc_N=0.054210 rd_N=0.056681
+[OK] seed=2026 model=LightGCN target=Chicago local_N=0.376549 otc_N=0.151748 rd_N=0.376549
+[OK] seed=2026 model=LightGCN target=NYC local_N=0.482164 otc_N=0.092344 rd_N=0.482164
+[OK] seed=2026 model=LightGCN target=Singapore local_N=0.245994 otc_N=0.210227 rd_N=0.245994
+[OK] seed=2026 model=LightGCN target=Tokyo local_N=0.333382 otc_N=0.069538 rd_N=0.333382
+
+raw_csv: D:\山东大学\深度学习\OTC_Project\exp_clean\results\raw\complete_ablation_multiseed.csv
+params_csv: D:\山东大学\深度学习\OTC_Project\exp_clean\results\raw\complete_ablation_params_multiseed.csv
+summary_csv: D:\山东大学\深度学习\OTC_Project\exp_clean\results\tables\complete_ablation_multiseed_mean_std.csv
+official_avg_csv: D:\山东大学\深度学习\OTC_Project\exp_clean\results\tables\complete_ablation_official_avg.csv

@@ -1,0 +1,55 @@
+{
+  "script": "exp_clean/scripts/02_otc_reproduction/run_otc_gw_multiseed.py",
+  "runner": "D:\\山东大学\\深度学习\\OTC_Project\\exp_clean\\scripts\\02_otc_reproduction\\run_otc_gw_reproduction.py",
+  "models": [
+    "VanillaMF",
+    "LightGCN"
+  ],
+  "target_cities": [
+    "Chicago",
+    "NYC",
+    "Singapore",
+    "Tokyo"
+  ],
+  "source_cities": [
+    "Chicago",
+    "NYC",
+    "Singapore",
+    "Tokyo"
+  ],
+  "seeds": [
+    2025,
+    2026
+  ],
+  "epochs": 100,
+  "dim": 64,
+  "k": 20,
+  "gammas": [
+    "0.5",
+    "1.0",
+    "1.5",
+    "2.0",
+    "2.5",
+    "3.0",
+    "3.5",
+    "4.0",
+    "4.5",
+    "5.0"
+  ],
+  "gw_method": "entropic_gw",
+  "gw_epsilon": "0.01",
+  "gw_max_iter": "80",
+  "score_norm": "none",
+  "normalize_emb": false,
+  "mask_train": false,
+  "row_weighted": true,
+  "save_plans": false,
+  "success_count": 16,
+  "fail_count": 0,
+  "outputs": {
+    "merged_csv": "D:\\山东大学\\深度学习\\OTC_Project\\exp_clean\\results\\raw\\otc_gw_multiseed.csv",
+    "report": "D:\\山东大学\\深度学习\\OTC_Project\\exp_clean\\results\\reports\\otc_gw_multiseed_report.txt",
+    "log_dir": "D:\\山东大学\\深度学习\\OTC_Project\\exp_clean\\logs\\otc\\gw_multiseed"
+  },
+  "note": "No-fallback OTC-GW multi-seed run. Gamma grid does not include 0 by default."
+}

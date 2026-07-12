@@ -1,0 +1,35 @@
+# Official Baseline Formal Report
+
+patched_main: D:\山东大学\深度学习\OTC_Project\OpenSiteRec\baseline\main_exp_clean_no_split.py
+cities: ['Chicago', 'NYC', 'Singapore', 'Tokyo']
+models: ['VanillaMF', 'NeuMF', 'RankNet', 'NGCF', 'LightGCN']
+seed: 2024
+epochs: 100
+eval_freq: 10
+cuda: -1
+success_count_this_run: 20
+skipped_existing_success_count: 0
+fail_count_this_run: 0
+split_hash_unchanged: True
+csv: D:\山东大学\深度学习\OTC_Project\exp_clean\results\raw\official_baseline_formal.csv
+
+Chicago | VanillaMF | success | R@20=0.18171834889189722 | N@20=0.1243964976912265 | log=D:\山东大学\深度学习\OTC_Project\exp_clean\logs\baselines\formal\Chicago_VanillaMF_seed2024_epochs100.log
+Chicago | NeuMF | success | R@20=0.19344382201102364 | N@20=0.12583754949494483 | log=D:\山东大学\深度学习\OTC_Project\exp_clean\logs\baselines\formal\Chicago_NeuMF_seed2024_epochs100.log
+Chicago | RankNet | success | R@20=0.21621307387052785 | N@20=0.13469617901307943 | log=D:\山东大学\深度学习\OTC_Project\exp_clean\logs\baselines\formal\Chicago_RankNet_seed2024_epochs100.log
+Chicago | NGCF | success | R@20=0.26846492113377785 | N@20=0.1760436953634795 | log=D:\山东大学\深度学习\OTC_Project\exp_clean\logs\baselines\formal\Chicago_NGCF_seed2024_epochs100.log
+Chicago | LightGCN | success | R@20=0.2712448818428482 | N@20=0.18684933028053588 | log=D:\山东大学\深度学习\OTC_Project\exp_clean\logs\baselines\formal\Chicago_LightGCN_seed2024_epochs100.log
+NYC | VanillaMF | success | R@20=0.12004096298351864 | N@20=0.05728274071492019 | log=D:\山东大学\深度学习\OTC_Project\exp_clean\logs\baselines\formal\NYC_VanillaMF_seed2024_epochs100.log
+NYC | NeuMF | success | R@20=0.12470827165756772 | N@20=0.05836718628110379 | log=D:\山东大学\深度学习\OTC_Project\exp_clean\logs\baselines\formal\NYC_NeuMF_seed2024_epochs100.log
+NYC | RankNet | success | R@20=0.11160319108884195 | N@20=0.053261404561728724 | log=D:\山东大学\深度学习\OTC_Project\exp_clean\logs\baselines\formal\NYC_RankNet_seed2024_epochs100.log
+NYC | NGCF | success | R@20=0.15247097552475344 | N@20=0.08489319099360551 | log=D:\山东大学\深度学习\OTC_Project\exp_clean\logs\baselines\formal\NYC_NGCF_seed2024_epochs100.log
+NYC | LightGCN | success | R@20=0.204196519910622 | N@20=0.10713934688342482 | log=D:\山东大学\深度学习\OTC_Project\exp_clean\logs\baselines\formal\NYC_LightGCN_seed2024_epochs100.log
+Singapore | VanillaMF | success | R@20=0.43506865564688413 | N@20=0.22398245714108125 | log=D:\山东大学\深度学习\OTC_Project\exp_clean\logs\baselines\formal\Singapore_VanillaMF_seed2024_epochs100.log
+Singapore | NeuMF | success | R@20=0.4279202113406595 | N@20=0.22266615895837874 | log=D:\山东大学\深度学习\OTC_Project\exp_clean\logs\baselines\formal\Singapore_NeuMF_seed2024_epochs100.log
+Singapore | RankNet | success | R@20=0.4262169537618704 | N@20=0.21952878219154628 | log=D:\山东大学\深度学习\OTC_Project\exp_clean\logs\baselines\formal\Singapore_RankNet_seed2024_epochs100.log
+Singapore | NGCF | success | R@20=0.4314498428123121 | N@20=0.22113747945418427 | log=D:\山东大学\深度学习\OTC_Project\exp_clean\logs\baselines\formal\Singapore_NGCF_seed2024_epochs100.log
+Singapore | LightGCN | success | R@20=0.4511084458586801 | N@20=0.24287051108157087 | log=D:\山东大学\深度学习\OTC_Project\exp_clean\logs\baselines\formal\Singapore_LightGCN_seed2024_epochs100.log
+Tokyo | VanillaMF | success | R@20=0.12162908278203487 | N@20=0.06392809141320833 | log=D:\山东大学\深度学习\OTC_Project\exp_clean\logs\baselines\formal\Tokyo_VanillaMF_seed2024_epochs100.log
+Tokyo | NeuMF | success | R@20=0.11957066224922668 | N@20=0.06271319415510042 | log=D:\山东大学\深度学习\OTC_Project\exp_clean\logs\baselines\formal\Tokyo_NeuMF_seed2024_epochs100.log
+Tokyo | RankNet | success | R@20=0.10872328409985524 | N@20=0.05825529095255376 | log=D:\山东大学\深度学习\OTC_Project\exp_clean\logs\baselines\formal\Tokyo_RankNet_seed2024_epochs100.log
+Tokyo | NGCF | success | R@20=0.14847227911737074 | N@20=0.08797674352930657 | log=D:\山东大学\深度学习\OTC_Project\exp_clean\logs\baselines\formal\Tokyo_NGCF_seed2024_epochs100.log
+Tokyo | LightGCN | success | R@20=0.16508303197713683 | N@20=0.10299341522712675 | log=D:\山东大学\深度学习\OTC_Project\exp_clean\logs\baselines\formal\Tokyo_LightGCN_seed2024_epochs100.log

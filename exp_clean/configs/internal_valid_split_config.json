@@ -1,0 +1,13 @@
+{
+  "script": "exp_clean/scripts/00_data_checks/create_internal_valid_splits.py",
+  "seed": 2024,
+  "valid_ratio_in_official_train": 0.125,
+  "cities": [
+    "Chicago",
+    "NYC",
+    "Singapore",
+    "Tokyo"
+  ],
+  "rule": "For each Brand_ID, sample max(1, round(n_train_rows * ratio)) rows into valid and keep at least one row in train_core.",
+  "note": "official test.pkl is not modified. This split is for validation/model selection/safe gate only."
+}
