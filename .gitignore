@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+otc/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Dataset and generated splits
+OpenSiteRec/Chicago/
+OpenSiteRec/NYC/
+OpenSiteRec/Singapore/
+OpenSiteRec/Tokyo/
+OpenSiteRec/demo/
+OpenSiteRec/fig/
+OpenSiteRec.zip
+exp_clean/data_splits/
+data/raw/
+data/processed/
+*.pkl
+*.geojson
+
+# Model artifacts and score matrices
+exp_clean/checkpoints/
+exp_clean/scores/
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+
+# Logs and temporary outputs
+exp_clean/logs/
+*.log
+*.tmp
+*.bak
+
+# LaTeX intermediates
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+*.toc
+*.xdv
